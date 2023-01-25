@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="navlogo" src="images/logo.png"><span class="navtitle">Tea Cafe</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#tentang">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#book">Booking</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Home-1.png" class="d-block w-100" alt="Tea 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Home-2.png" class="d-block w-100" alt="Tea 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Home-3.png" class="d-block w-100" alt="Tea 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <a name="tentang"></a>
+      <div class="about spasi">
+        <div class="row">
+            <div class="col-4">
+                <img src="images/About-Image.png" class="imgabout">
+            </div>
+            <div class="col-8 aboutdesc">
+                <h3>Our Tea Blands Are For Everyone</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, dolorum blanditiis unde cum deleniti nobis. Corporis odit numquam officiis sapiente.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facere, nobis eaque numquam rerum odit.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="counting spasi">
+
+        <div class="box">
+            <i class="fas fa-shopping-bag"></i>
+            <div class="count" data-count="500">500</div>
+            <h3>Products</h3>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-smile"></i>
+            <div class="count" data-count="500">500</div>
+            <h3>Satisfied</h3>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-award"></i>
+            <div class="count" data-count="200">200</div>
+            <h3>Awards won</h3>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-users"></i>
+            <div class="count" data-count="100">100++</div>
+            <h3>Staff</h3>
+        </div>
+
+      </div>
+
+      <div class="menusample"></div>
+
+      <a name="book"></a>
+      <div class="bookingform spasi">
+        <h3>Booking Table Now</h3>
+        <div class="row">
+            
+            <div class="col-4">
+                <img src="images/logo.png">
+                <div class="bookremark">
+                    Silahkan order meja untuk acara spesial kamu
+                </div>
+            </div>
+
+            <div class="col-8">
+                <form action="#" method="post">
+                  
+                  <div class="row">
+                    <div class="col-6">
+                      <label class="form-label">Nama User</label>
+                      <input type="text" name="txNAMA" class="form-control" placeholder="Isikan Nama Kamu">
+                    </div>
+                    <div class="col-6">
+                      <label class="form-label">Nomor Telp</label>
+                      <input type="text" name="txTELP" class="form-control" placeholder="Isikan Nomor Telpon">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <label class="form-label">Nomor Meja</label>
+                      <select name="noMEJA" class="form-select">
+                        <option value="meja1">Meja 1</option>
+                        <option value="meja2">Meja 2</option>
+                        <option value="meja3">Meja 3</option>
+                        <option value="meja4">Meja 4</option>
+                        <option value="meja5">Meja 5</option>
+                        <option value="meja6">Meja 6</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">
+                      <label class="form-label">Jumlah Tamu</label>
+                      <input type="number" name="txJTAMU" class="form-control" placeholder="Isikan Jumlah Tamu">
+                    </div>
+                    <div class="col-4">
+                      <label class="form-label">TGL order</label>
+                      <input type="date" name="txTGL" class="form-control" placeholder="Isikan TGL">
+                    </div>
+                    <div class="col-4">
+                      <label class="form-label">Jam Order</label>
+                      <input type="time" name="txJAM" class="form-control" placeholder="Isikan Jam">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <button class="btn btn-primary"> Order </button>
+                    </div>
+                  </div>
+
+                </form>
+            </div>
+
+        </div>
+      </div>
+    
+      <div class="footer">
+        <div class="row">
+          <div class="col-4">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#tentang">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="index.html#book">Booking</a></li>
+            </ul>
+          </div>
+          <div class="col-4">
+            Buka jam 07:30 - 23:50
+          </div>
+          <div class="col-4">
+            <a href="http://facebook.com"><i class="fa fa-thumbs-up"></i></a>
+            <a href="http://facebook.com"><i class="fa fa-camera"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/16f5f44246.js" crossorigin="anonymous"></script>
+  </body>
+</html>
